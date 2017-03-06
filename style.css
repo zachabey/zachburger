@@ -1,7 +1,7 @@
 
 body {
 
-  overflow: hidden;
+
   text-align: center;
 }
 
@@ -35,6 +35,8 @@ h5 {
   text-transform: uppercase;
   font-family: "monospace";
   font-size: 30px;
+  color: #fc6791;
+  position: relative;
 
 }
 /** Right side styling **/
@@ -56,7 +58,7 @@ img {
 }
 .content-header {
   background: url("image.jpg") center;
-  background-size: 50%;
+  background-size: 30%;
   position: relative;
   top: -20px;
   height: 300px;
