@@ -31,7 +31,12 @@ body {
   margin: 20px;
   text-transform: uppercase;
 }
+h5 {
+  text-transform: uppercase;
+  font-family: "monospace";
+  font-size: 30px;
 
+}
 /** Right side styling **/
 
 .content-box {
@@ -42,7 +47,13 @@ body {
   width: 100%;
   overflow: scroll;
 }
-
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  font-weight: bolder;
+  line-height: 50px;
+}
 .content-header {
   background: url("image.jpg") center;
   background-size: 50%;
@@ -52,7 +63,7 @@ body {
 }
 .logo-header {
   background-size: 100px 80px;
-  background-width: 20%;
+  background: 20%;
   top: 10px;
   margin: 0 auto;
   width: 20%;
