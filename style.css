@@ -42,8 +42,8 @@ h5 {
 /** Right side styling **/
 
 .content-box {
-  height: 500px;
-  margin: 0 auto;
+  height: 600px;
+  margin: auto;
   position: relative;
   top: 150px;
   width: 100%;
@@ -167,4 +167,24 @@ p {
   background-color: #05A8AA;
   border: 1px solid #05A8AA;
   color: #FFF;
+}
+.btn2 {
+  color: #05A8AA;
+  border: 2px solid #05A8AA;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn2:hover {
+  background-color: #fc6791;
+  border: 1px solid #05A8AA;
+  color: #FFF;
+}
+.burger details {
+  padding: 50px;
 }
